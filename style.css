@@ -1,0 +1,59 @@
+body
+{
+    background-color:aquamarine;
+    padding: 0px;
+    margin: 0px;
+    font-family: "FS Elliot Pro";
+    text-align:center;
+}
+
+.header-container
+{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    padding: 0px 0px 0px;
+}
+
+.logo-container
+{
+    display:flex;
+    width: 100px;
+    height: 5.1em;
+    /* margin-right: 92%; */
+    position: relative;
+    right: 600px;
+}
+
+.header-button-container
+{
+    display:flex;
+    position: relative;
+    left: 430px;
+    gap: 10px;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.boludo-title
+{
+    display:inline;
+    color:white;
+    position:relative;
+    left:100px;
+}
+
+.header-button
+{
+    background-color: #55b0fb;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.header-button:hover
+{
+    padding: 10px;
+    background-color: #555dfb;
+}
